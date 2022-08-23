@@ -1,0 +1,124 @@
+.clients{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.clients__title{
+    font-family: var(--primary-font);
+    font-weight: var(--bold-font);
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    justify-content: center;
+}
+
+.clients__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.clients__item{
+    flex-basis:calc((100% - 30px) / 2) ;
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border: 1px solid var(--accent-color);
+     color: var(--accent-color);
+    }
+}
+.clients-logo {
+    fill: currentColor;
+}
+
+@media screen and (min-width:768px){
+    .clients__item{
+        flex-basis:calc((100% - 60px) / 3);
+    }
+    .clients__link{
+        width: 226px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .clients{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .clients__title{
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    .clients__list{
+        flex-wrap: nowrap;
+
+    }
+    .clients__link{
+        width: 170px;
+    }
+}
+// .clients {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+
+// .clients-title {
+//     font-family: var(--primary-font);
+//     font-weight: var(--bold-font);
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     color: var(--primary-color);
+//     justify-content: center;
+// }
+
+// .clients-list {
+//     display: flex;
+//     padding-left: 0;
+//     margin-top: 50px;
+//     margin-bottom: 0;
+// }
+
+// .clients-item:not(:last-child) {
+//     margin-right: 30px;
+// }
+
+// .clients__link{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 170px;
+//     height: 92px;
+//     color: #AFB1B8;
+//     border: 1px solid #AFB1B8;
+//     border-radius: 4px;
+//     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//  &:hover,
+//  &:focus {
+//     border: 1px solid var(--accent-color);
+//     color: var(--accent-color);
+//  }
+// }
+// .clients-logo {
+//     fill: currentColor;
+// }
+

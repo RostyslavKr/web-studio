@@ -1,0 +1,129 @@
+.specialy{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.specialy__item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.specialy__title {
+
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    font-weight: var(--bold-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.specialy__text {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: var(--normal-font);
+    color: var(--secondery-color);
+    letter-spacing: 0.03em;
+}
+
+
+@media screen and (min-width:768px){
+    .specialy__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .specialy__item{
+         flex-basis: calc((100% - 30px) / 2);
+    }
+    .specialy__title{
+       text-align: left;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    .specialy {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .specialy__list{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    .specialy__item:not(:last-child){
+        margin-bottom: 0;
+    }
+}
+// .specialy {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+
+
+
+// .specialy__list {
+//     display: flex;
+//     list-style: none;
+//     padding-left: 0;
+//     margin: 0;
+// }
+
+// .specialy__item {
+//     text-align: left;
+//     width: 270px;
+// }
+
+// .specialy__item:not(:last-child) {
+//     margin-right: 30px;
+// }
+
+// .specialy__title {
+
+//     font-family: var(--primary-font);
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     font-weight: var(--bold-font);
+//     color: var(--primary-color);
+//     text-transform: uppercase;
+//     margin-bottom: 10px;
+
+// }
+
+// .specialy__text {
+//     font-family: var(--primary-font);
+//     font-size: 14px;
+//     line-height: 1.7;
+//     font-weight: var(--normal-font);
+//     color: var(--secondery-color);
+//     letter-spacing: 0.03em;
+//     margin-top: 0;
+//     margin-bottom: 0;
+// }
+
+
+// .wrapper {
+//     background-color: #F5F4FA;
+//     border-radius: 4px;
+//     display: flex;
+//     height: 120px;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 30px;
+// }
