@@ -53,6 +53,9 @@
     .specialy__title{
        text-align: left;
     }
+    .specialy__item:not(:last-child){
+        margin-bottom: 0;
+    }
 }
 
 
