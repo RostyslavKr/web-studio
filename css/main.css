@@ -1337,6 +1337,7 @@ body {
     margin-bottom: 0;
   }
   .projects__link {
+    display: flex;
     flex-direction: column;
   }
   .description {
